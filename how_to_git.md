@@ -46,4 +46,11 @@ When it's time to commit, follow these steps:
 ## Create a pull request for your issue  
 When you switch back to the Github page for your repo in the browser, you'll now see an alert saying that changes have come in from branch `issue_1`. Now you want those changes merged into the master branch, so that the changes in your issue are included in it. 
 
-The standard way to request this kind of merging is called a "Pull Request", and the most common way to put an issue's worth of changes into a request is with the browser. 
+The standard way to request this kind of merging is called a "Pull Request", and the most common way to put an issue's worth of changes into a request is with the browser:
+
+1. Navigate to your repo in the browser. If you've just pushed code, there'll be a yellow strip with an alert reading "You recently pushed branches". Push the green button that says "Compare & pull request." 
+2. The next page is the one where we open a pull request. We can give the PR a brief description (this should be very similar to the issue description, but may have more notes on implementation). If there's a particular person you want to review your code, you can assign reviewers on this page too. When all of that's done, click the green button saying "Create pull request."   
+3. The next page is the review page for the pull request. In an ideal world, the reviewer of the PR will not be its author. So at this point you can let your teammates know that a PR is ready for review. 
+4. If you're moving through issue on your own and just want to merge in changes, GitHub will let you know if any conflicts have come up. If they have, you'll need to resolve them. 
+5. If there are no conflicts with the base branch, you can click the green button that says "Merge pull request," and the changes will be merged.
+6. This is a great opportunity to delete the old branch, `issue_1`. Once the branch has been merged, there's no reason to keep it around cluttering things up. 
