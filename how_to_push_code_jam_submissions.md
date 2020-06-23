@@ -7,7 +7,7 @@ You could copy the function and paste it into Visual Studio Code, then save it a
 2. Use GitHub Desktop to clone the code jam repo to your local
 Make sure you've downloaded and authenticated GitHub Desktop (you'll have to provide it with your GitHub username and password). Then select "Clone repository" from the File menu. You'll see a search bar. Enter "code jam" in the search bar and you should see something like in the image below. Pick a good directory to clone into (the result will also be new directory called `code_jam`) and hit the blue button.
 
-<img src="https://raw.githubusercontent.com/department-of-general-services/style_guides_and_trainings/master/img/code_jam_1.png" width="500">
+<img src="https://raw.githubusercontent.com/department-of-general-services/style_guides_and_trainings/master/img/code_jam_1.png" width="600">
 
 2. Create a new branch  
 In GitHub Desktop, go to the Branch menu and select "Create a new branch." In this case, your branch can just be your last name. 
@@ -26,4 +26,4 @@ You're almost there! Now your code is ready and has been committed to GitHub. Th
 6. Confirm your push in the browser 
 This step is optional but I'd do it if it were me. What you want to do is visit the repo's page in the browser, which represents its remote version. In the case of Code Jam, [it's here](https://github.com/department-of-general-services/code_jam). When you get there, you should see a highlighted message saying a branch was recently pushed (see below for an example). If you don't see this, something probably didn't work. Feel free to reach out to me (James) if you want to talk through it. 
 
-<img src="https://raw.githubusercontent.com/department-of-general-services/style_guides_and_trainings/master/img/code_jam_3.png" width="500">
+<img src="https://raw.githubusercontent.com/department-of-general-services/style_guides_and_trainings/master/img/code_jam_3.png" width="700">
